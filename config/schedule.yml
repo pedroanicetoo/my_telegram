@@ -1,0 +1,5 @@
+# TODO example
+lorem_ipsum_example:
+  cron: "*/1 * * * *"
+  class: "Context::Context2"
+  queue: lorem_ipsum.clorem_ipsum.dlorem_ipsum

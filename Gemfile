@@ -10,6 +10,7 @@ gem "rails", "~> 7.0.0"
 gem "sqlite3", "~> 1.4"
 
 gem 'pry'
+gem 'net-http'
 gem 'telegram-bot-ruby'
 # Use Sidekiq adapter to run Active Job
 gem 'sidekiq', '~> 6.0.4'

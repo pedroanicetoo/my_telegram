@@ -2,7 +2,7 @@ require 'telegram/bot'
 
 API_KEY = Rails.application.secrets[:telegram_bot][:api_key]
 
-Telegram::Bot::Client.run(api_key, logger: Logger.new($stderr)) do |bot|
+Telegram::Bot::Client.run(API_KEY, logger: Logger.new($stderr)) do |bot|
   bot.logger.info('Bot has been started')
   bot.listen do |message|
     case message.text

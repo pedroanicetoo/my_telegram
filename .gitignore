@@ -36,3 +36,6 @@
 
 # Ignore secrets
 /config/secrets.yml
+
+# Ignore .env
+.env

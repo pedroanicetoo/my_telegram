@@ -14,10 +14,8 @@ gem "sqlite3", "~> 1.4"
 gem 'pry'
 gem 'net-http'
 gem 'telegram-bot-ruby'
-# Use Sidekiq adapter to run Active Job
-gem 'sidekiq', '~> 6.0.4'
-# Use Sidekiq-Cron to run cron jobs
-gem 'sidekiq-cron', '~> 1.1'
+# Process manager for applications with multiple components
+gem 'foreman'
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -34,8 +32,11 @@ gem "stimulus-rails"
 gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
-gem "redis", "~> 4.0"
-
+gem "redis", "~> 4.8.0"
+# Use Sidekiq adapter to run Active Job
+gem 'sidekiq', '~> 6.5.5'
+# Use Sidekiq-Cron to run cron jobs
+gem 'sidekiq-cron', '~> 1.1'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 

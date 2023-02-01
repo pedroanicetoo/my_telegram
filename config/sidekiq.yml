@@ -1,2 +1,2 @@
 :queues:
-  - telegram.send_gif_job
+  - telegram_messages.send_gif_job

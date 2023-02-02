@@ -1,4 +1,4 @@
 send_gif_job:
-  cron: "*/1 * * * *"
+  cron: "*/30 * * * *"
   class: "TelegramMessages::SendGifJob"
   queue: telegram_messages.send_gif_job

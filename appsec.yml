@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
 - source: /
-destination: /var/www/my-app/
+destination: /var/www/my_telegram/
 permissions:
-- object: /var/www/my-app/
+- object: /var/www/my_telegram/
 pattern: “**”
 owner: ubuntu
 group: ubuntu
